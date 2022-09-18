@@ -25,7 +25,9 @@ SECRET_KEY = 'secret_key' # sould be unique for you
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'weather-forcastin.herokuapp.com'
+]
 
 
 # Application definition
